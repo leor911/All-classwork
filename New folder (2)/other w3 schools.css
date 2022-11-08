@@ -1,0 +1,18 @@
+
+input{
+    color:red
+}
+input:hover{
+    color:blue
+
+}
+select{
+    color:red
+}
+
+select:hover{
+    color:blue
+}
+button:active{
+    background-color:green
+}

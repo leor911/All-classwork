@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ 
+html{
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-weight:200;
+    font-size:20px;
+    text-rendering:optimizeLegibility;
+    /* overflow:hidden */
+
+}
+
+
+
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+            url('./resources/img/hero.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed
+}
+ 
+.row{
+    max-width:1140;
+    margin:auto;
+    display:flex
+}
+
+.hero-text-box{
+    width:1140px;
+    position:absolute;
+    top:50%;
+    left:50%;
+  transform: translate(-50%, -50%);
+    font-size:30px; 
+
+}
+
+.btn{
+    display:inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius:200px;
+    color:white;
+}
+
+.btn:hover, .btn:active{
+    background-color:rgb(245, 212, 150);
+}
+
+.btn-full{
+    background-color: orange;
+    border: 1px solid orange;
+    color:white;
+}
+
+
+.btn-ghost {
+    border: 1px solid;
+    color: orange;
+    transition: color 0.2s
+}
+
+.btn-full:hover, .btn-full:active{
+    border: 1px solid orange;
+
+}
+
+
+.btn-ghost:hover, .btn-ghost:active {
+    border: 1px solid orange;
+    color: white
+}
+
+
+
+
+.a {
+    color:white;
+    text-decoration:none;
+    padding:25px;
+    transition:border-bottom 0.2s, color0.2s;
+}
+
+
+.a:hover{
+    border-bottom: 1px solid orange;
+}
+
+.flex-container{
+    display:flex;
+    justify-content:center;
+    justify-content:space-around;
+       padding-top:50px;
+       font-size:25px
+    }
+    
+     .item-1{
+        justify-content:left;
+    Padding-left:100px;
+    display:flex
+    }
+    
+    .item-2{
+       padding-left:150px;
+       justify-content:right;
+       padding-top:25px;
+    } 
+    
+    ul{
+        display:flex;
+        list-style-type: none;
+        justify-content:right
+    }
+
+   

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <title>Password generator</title>
+</head>
+<body class = "container">
+    <h1>Goofy Generator</h1>
+    <!-- Leo + Cooper-->
+    <div class = "container bg-light">
+        <label for = "p-length">Password Length</label>
+        <input type = "number" min = 8 max = 24 id = "p-length"><br/>
+
+        <label for = "contains-uppercase">Contains Uppercase Letters</label>
+        <input type = "checkbox" id = "contains-uppercase"><br/>
+
+        <label for = "contains-lowercase">Contains Lowercase Letters</label>
+        <input type = "checkbox" id = "contains-lowercase"><br/>
+        
+        <label for = "contains-numbers">Contains Numbers</label>
+        <input type = "checkbox" id = "contains-numbers"><br/>
+        
+        <label for = "contains-symbols">Contains Symbols</label>
+        <input type = "checkbox" id = "contains-symbols"><br/>
+        <!-- Cooper -->
+        <button onclick = "generate()"class = "btn btn-success">Generate</button>
+    </div>
+    <div class = "container p-5 mt-3 mb-3 bg-info text-light" ><p id = "password-display"></p></div>
+    <script src="task4.js"></script>
+</body>
+</html>

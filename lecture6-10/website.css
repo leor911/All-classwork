@@ -1,0 +1,339 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ 
+html{
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-weight:200;
+    font-size:20px;
+    text-rendering:optimizeLegibility;
+    /* overflow:hidden */
+
+}
+
+
+
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+            url('./resources/img/hero.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed
+}
+ 
+.row{
+    max-width:1140;
+    margin:auto;
+    display:flex
+}
+
+.hero-text-box{
+    width:1140px;
+    position:absolute;
+    top:50%;
+    left:50%;
+  transform: translate(-50%, -50%);
+    font-size:30px; 
+
+}
+
+.btn{
+    display:inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius:200px;
+    color:white;
+}
+
+.btn:hover, .btn:active{
+    background-color:rgb(245, 212, 150);
+}
+
+.btn-full{
+    background-color: orange;
+    border: 1px solid orange;
+    color:white;
+}
+
+
+.btn-ghost {
+    border: 1px solid;
+    color: orange;
+    transition: color 0.2s
+}
+
+.btn-full:hover, .btn-full:active{
+    border: 1px solid orange;
+
+}
+
+
+.btn-ghost:hover, .btn-ghost:active {
+    border: 1px solid orange;
+    color: white
+}
+
+
+
+
+.a {
+    color:white;
+    text-decoration:none;
+    padding:25px;
+    transition:border-bottom 0.2s, color0.2s;
+}
+
+
+.a:hover{
+    border-bottom: 1px solid orange;
+    color:white
+}
+
+
+
+.flex-container{
+    display:flex;
+    justify-content:center;
+    justify-content:space-around;
+       padding-top:50px;
+       font-size:25px
+    }
+    
+     .item-1{
+        justify-content:left;
+    Padding-left:100px;
+    display:flex
+    }
+    
+    .item-2{
+       padding-left:150px;
+       justify-content:right;
+       padding-top:25px;
+    } 
+    
+    .navagation{
+        display:flex;
+        list-style-type: none;
+        justify-content:right
+    }
+
+ 
+
+/* ul{ */
+    /* display:flex;
+    list-style-type: none;
+    float:right
+} */
+
+.flex-container{
+
+    justify-content:center;
+    justify-content:space-around;
+       padding-top:50px;
+       font-size:25px
+    }
+
+.item-1{
+    justify-content:left;
+Padding-left:100px;
+display:flex
+}
+
+.item-2{
+   padding-left:150px;
+   justify-content:right;
+   padding-top:25px;
+} 
+
+.flex-container-2{
+    color:black;
+    display:flex;
+    justify-content:center;
+    justify-content:space-around;
+    margin-bottom:90px
+}
+
+.flex-container-4{
+    color:black
+}
+
+h2:after{
+    display:block;
+    height:2px;
+    width:100px;
+    background-color:orange;
+    content:" ";
+    margin:auto;
+    margin-top:30px
+}
+
+
+
+.icon-big{
+    font-size:350%;
+    display:block;
+    color:orange;
+    margin-bottom:10px;
+    --ionicon-stroke-width:20px
+}
+
+.pics-container{
+    display:flex;
+    justify-content: center;
+}
+
+
+.the-pics{
+width:100%;
+margin:0;
+overflow:hidden;
+background-color:black;
+display:flex;
+justify-content: center;
+ 
+}
+
+.the-pics img{
+    opacity:0.7;
+    width:100%;
+    height:auto;
+    transform:scale(1.15);
+    overflow:hidden;
+    transition:transform 0.5s, opacity 0.5s ;
+}
+
+.the-pics img:hover{
+ opacity:1;
+ transform:scale(1.00)  
+}
+
+
+.iphone-flex{
+    display:flex;
+    justify-content: center;
+    padding-top:75px;
+    height:25%;
+    
+}
+
+.words-flex{
+    display:flex;
+    flex-direction:column;
+    height:25%;
+    padding-left:125px;
+    width:50%
+}
+
+.num1-flex{
+    display:flex
+}
+
+.quotes{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url('./resources/img/back-customers.jpg');
+background-size: cover;
+height:50%;
+background-attachment: fixed;
+color:white
+}
+
+
+.coustmers-flex{
+    display:flex;
+    padding:2%;
+    font-style:italic;
+    line-height: 145%;
+    margin-top:40px;
+    font-size:20px;
+    width:auto;
+    justify-content:center
+}
+
+.pic-name{
+    display:flex;
+
+}
+
+.quotes-flex{
+    width:40%
+}
+
+.para-flex{
+    width:40%
+}
+
+.sayers-flex{
+    width:40%
+}
+.Location-flex{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    padding-bottom:150px;
+
+    }
+    
+
+.footer{
+    display:flex;
+    
+}
+
+.footer-heading{
+    display:flex;
+    list-style-type: none;
+}
+
+   .heading{
+    justify-content:left;
+    
+   }
+
+   .logos{
+    display:flex;
+    justify-content:space-around;
+    padding-left:550px
+   }
+
+
+
+
+   .ah{
+    text-decoration:none;
+    color:rgb(139, 139, 139);
+    transition: color white 0.5s 0.2s;
+   }
+
+   .ah:hover{
+    color:white
+   }
+
+.af{
+    color:rgb(139, 139, 139)
+}
+
+.fb:hover{
+    color:blue
+}
+
+.yt:hover{
+    color:red
+}   
+
+footer{
+    background-color:rgb(41,41,41);
+    background-size:cover;
+    margin-bottom:-20px
+}
+
+
+.Pricing-flex{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    padding-bottom:100px;
+}

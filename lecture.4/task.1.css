@@ -1,0 +1,64 @@
+hero{
+    min-height: 10em;
+    margin-bottom: 1em;
+    }
+    
+    .content{
+    min-height: 40em;
+    margin-bottom: 1em;
+    }
+    
+    .sidebar{
+    min-height: 40em;
+    margin-bottom: 1em;
+    }
+    
+    @media only screen and (max-width:600px){
+    .content{
+        width: 100%;
+        margin-right: 0px;
+    }
+    #content-sidebar-container{
+        flex: 1;
+    }
+    }
+    @media only screen and (max-width:999px) and (min-width:601px){
+    .content{
+        width: 30%;
+        margin-right: 1em;
+    }
+    #hero-container{
+        display: flex;
+        justify-content: center;
+    }
+    .hero{
+        width: 100%;
+    }
+    #content-sidebar-container{
+        justify-content: center;
+        width: 100%;
+    }
+    
+    }
+    
+    @media only screen and (min-width: 1000px){
+        .content{
+    width: 75%;
+    margin-right: 1em;
+        }
+    
+        #hero-container{
+            display: flex;
+            justify-content: center;
+        }
+    .hero{
+        width: 50%;
+        margin-bottom:1em;
+        margin-top:1em
+    }
+    #content-sidebar-container{
+        justify-content: center;
+        width: 50%;
+        
+    }
+    }

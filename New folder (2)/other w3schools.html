@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel form</title>
+    <link rel="stylesheet" href="./other w3 schools.css">
+</head>
+<body>
+<div class="container">
+     <h1>From for traveling</h1>
+        <h3>denotes mandotory</h3>
+        <label>Full name*:</label><br>
+        <input id="input" type="text" name="full name" placeholder="First Name Last Name" autofocus="autofocus" value=""><br>   
+        <label>Email address*:</label><br>
+        <input type="text" name="email address" value=""><br>
+        <label>Select Tour Package*:</label><br>	
+    <select name="package">
+        <option value="new" >new</options>
+        <option value="newish" >newish</options>
+        <option value="old" >old</options>
+    </select><br>
+        <label>Arrival date*:</label><br>
+      <input type="text" name="arvival" placeholder="m/d/y"><br>
+            <label>Number of people*:</label><br>
+      <input type="text" name="persons" value=""><br>
+         <label>What would you want to available?*</label> <br> 
+     Boarding<input type="checkbox" name="facilities[]"   ><br>
+     Eating<input type="checkbox" name="facilities[]"  ><br>
+     Sight seeing<input type="checkbox" name="facilities"   ><br>
+       <label>Discount Coupon code:</label><br>
+      <input type="text" name="dis_code"><br>
+          <label>Terms and conditions*</label><br>
+      <input type="radio" value="agree">I agree
+      <input type="radio"value="disagree" >I disagree<br>
+      <button type="submit" class="btn btn-large btn-primary" name="submit">Complete reservation</button>
+</div>
+</body>
+</html>
